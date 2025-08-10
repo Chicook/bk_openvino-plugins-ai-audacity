@@ -1,1 +1,3 @@
 tools/windows/BuildArtifacts*
+config.bat
+node_modules

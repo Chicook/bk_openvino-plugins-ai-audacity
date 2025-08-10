@@ -58,7 +58,7 @@ wget https://storage.openvinotoolkit.org/repositories/openvino/packages/2024.6/l
 tar xvf l_openvino_toolkit_ubuntu22_2024.6.0.17404.4c0f47d2335_x86_64.tgz
 
 #install dependencies
-cd l_openvino_toolkit_ubuntu22_2024.6.0.17404.4c0f47d2335_x86_6/install_dependencies/
+cd l_openvino_toolkit_ubuntu22_2024.6.0.17404.4c0f47d2335_x86_64/install_dependencies/
 sudo -E ./install_openvino_dependencies.sh
 cd ..
 
@@ -74,7 +74,7 @@ Again, if don't want to click through a bunch of links and keep things on the co
 tar xzvf openvino_tokenizers_ubuntu22_2024.6.0.0_x86_64.tar.gz
 
 # To copy `libcore_tokenizers.so` && `libopenvino_tokenizers.so` to the openvino toolkit directory:
-cp -r ~/audacity-openvino/openvino_tokenizers/runtime/lib/intel64/* ~/audacity-openvino/openvino_toolkit/l_openvino_toolkit_ubuntu22_2024.6.0.17404.4c0f47d2335_x86_6/runtime/lib/intel64
+cp -r ~/audacity-openvino/openvino_tokenizers/runtime/lib/intel64/* ~/audacity-openvino/openvino_toolkit/l_openvino_toolkit_ubuntu22_2024.6.0.17404.4c0f47d2335_x86_64/runtime/lib/intel64
 ```
 
 * Libtorch (C++ distribution of pytorch)- This is a dependency for many of the pipelines that we ported from pytorch (musicgen, htdemucs, etc). We are currently using this version: [libtorch-cxx11-abi-shared-with-deps-2.4.1+cpu.zip ](https://download.pytorch.org/libtorch/cpu/libtorch-cxx11-abi-shared-with-deps-2.4.1%2Bcpu.zip). If you're keeping things in the terminal/on the commandline, you can use:
